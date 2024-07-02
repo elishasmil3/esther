@@ -1,0 +1,32 @@
+#blogs {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* bottom, image */
+  url(https://images8.alphacoders.com/595/thumb-1920-595107.jpg);;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.bloglists {
+  color: white;
+  font-size: 3vmin;
+}
+
+.bloglists:hover {
+  color: #4470ad;
+}
+
+@media only screen and (max-width: 500px) {
+  .bloglists {
+    font-size: 4vmin;
+  }
+}

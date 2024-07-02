@@ -1,0 +1,21 @@
+#footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+}
+
+#footer-social {
+  display: flex;
+  justify-content: center;
+  font-size: 6vmin;
+}
+
+#footer-social li {
+  list-style-type: none;
+  margin: 2vmin;
+}
+
+#footer-credits {
+  font-size: 3vmin;
+  padding-bottom: 3vmin;
+}

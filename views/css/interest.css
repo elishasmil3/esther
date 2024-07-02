@@ -1,0 +1,13 @@
+#interest {
+  color: white;
+  background: var(--dark);
+  padding: 7vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#interest .sec-hr {
+  background-color: white;
+}

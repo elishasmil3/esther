@@ -1,0 +1,131 @@
+#contact {
+  background: #f2f2f2;
+  padding: 20vmin 5vmin;
+}
+
+#contact-card {
+  height: fit-content;
+  width: 70%;
+  background: rgb(0, 2, 4);
+  background: radial-gradient(
+    circle,
+    rgba(0, 2, 4, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+  margin: auto;
+}
+
+#contact-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8vmin;
+}
+
+#contact-up h1 {
+  padding-bottom: 0;
+  font-size: 10vmin;
+}
+
+.contact-hr {
+  height: 10vmin;
+  width: 1px;
+  background: white;
+  margin: 0 5vmin;
+}
+
+#cnt-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#cnt-info span {
+  font-size: 3vmin;
+  display: flex;
+}
+
+#cnt-info span i {
+  font-size: 5vmin;
+  margin-right: 3vmin;
+}
+
+#contact-up .sec-hr {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  #contact-up {
+    flex-direction: column;
+  }
+  #cnt-info {
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  #contact-up h1 {
+    padding: 40px;
+  }
+  .contact-hr {
+    display: none;
+  }
+  #contact-up .sec-hr {
+    display: block;
+  }
+  #contact-card {
+    width: 100%;
+  }
+  #cnt-info span {
+    font-size: 4vmin;
+  }
+  #contact-up h1 {
+      font-size: 9vmin;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+    #contact-up h1 {
+        font-size: 8vmin;
+    }
+}
+
+#contact-bottom {
+  width: 70%;
+  margin: auto;
+  padding: 8vmin;
+  padding-top: 0;
+}
+
+#contact-bottom form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#contsubmit {
+  font-family: inherit;
+  font-size: 4vmin;
+  background: #002850;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#contsubmit:hover {
+  background: #000e1c;
+}
+
+#contact-form input,
+#contact-form textarea {
+  font-family: inherit;
+  margin-bottom: 2vmin;
+  padding: 2vmin !important;
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  font-family: "Schibsted Grotesk", sans-serif;
+}
